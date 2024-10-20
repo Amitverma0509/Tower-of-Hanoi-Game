@@ -1,15 +1,11 @@
-Here’s a **simple README.md** file for your **Tower of Hanoi** game.
-
----
-
 ## **Tower of Hanoi Game**  
 
-A web-based implementation of the classic **Tower of Hanoi** puzzle using **HTML, CSS, and JavaScript**. Test your problem-solving skills by moving all the disks from the first peg to the third peg following the game rules!
+A web-based implementation of the classic **Tower of Hanoi** puzzle using **HTML, CSS, and JavaScript**. Test your problem-solving skills by moving all the disks from the first container to the third container following the game rules!
 
 ---
 
 ### **How to Play**  
-1. **Objective**: Move all the disks from the first peg to the third peg.  
+1. **Objective**: Move all the disks from the first container to the third container.  
 2. **Rules**:  
    - You can only move one disk at a time.  
    - A larger disk **cannot** be placed on top of a smaller disk.  
@@ -49,7 +45,7 @@ A web-based implementation of the classic **Tower of Hanoi** puzzle using **HTML
 ---
 
 ### **Screenshots**  
-*Add a screenshot here if desired.*
+![image alt](https://github.com/Amitverma0509/Tower-of-Hanoi-Game/blob/ccb3171a0aa3b06e15b93785706bfc03d9d6b567/Screenshot%202024-10-20%20190611.png)
 
 ---
 
