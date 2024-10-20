@@ -1,4 +1,4 @@
-[Click to start the game](https://amitverma0509.github.io/Tower-of-Hanoi-Game/)
+[**Click to start the game**](https://amitverma0509.github.io/Tower-of-Hanoi-Game/)
 ## **Tower of Hanoi Game**  
 
 A web-based implementation of the classic **Tower of Hanoi** puzzle using **HTML, CSS, and JavaScript**. Test your problem-solving skills by moving all the disks from the first container to the third container following the game rules!
