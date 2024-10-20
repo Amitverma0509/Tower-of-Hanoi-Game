@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower of Hanoi</title>
+</head>
+<body>
+
+    <h1>Tower of Hanoi</h1>
+
+    <label for="diskCount">Enter number of disks: </label>
+    <input type="number" id="diskCount" value="3" min="3" max="10">
+    <button onclick="initializeGame()">Start Game</button>
+    <button onclick="undoLastMove()">Undo</button>
+    
+    <p>Turns: <span id="turnCounter">0</span> <span id="combination">(min 7)</span></p>
+    <p id="message" style="font-size: 1.5rem; color: #2b2d24;"></p>
+
+    <div class="game-container">
+        <div class="rod" id="rod1"></div>
+        <div class="rod" id="rod2"></div>
+        <div class="rod" id="rod3"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

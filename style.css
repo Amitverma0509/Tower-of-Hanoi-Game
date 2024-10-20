@@ -1,0 +1,102 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: hsl(217, 35%, 83%);
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  label, input{
+    font-size: 1rem;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2d42;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #4e555b;
+    transform: scale(1.05); 
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: auto; 
+    align-items: flex-end; 
+  }
+  
+  .rod {
+    width: 150px;
+    background-color: #78a7dc;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+    padding: 10px 0; 
+  }
+  
+  .disk {
+    height: 25px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: grab;
+    transition: all 0.2s ease;
+    background-color: hsl(200, 70%, 60%);
+  }
+  
+  @keyframes undoAnimation {
+    0% {
+      transform: translateY(-10px); 
+    }
+    50% {
+      transform: translateY(10px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
+  
+  .disk {
+    height: 25px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: grab;
+    transition: all 0.2s ease;
+    background-color: hsl(200, 70%, 60%);
+    animation-duration: 0.5s; 
+  }
+  
+  .animate-undo {
+    animation-name: undoAnimation; 
+    animation-fill-mode: forwards; 
+    animation-delay: 0.2s;
+  }
+  
+  
+  
+  
