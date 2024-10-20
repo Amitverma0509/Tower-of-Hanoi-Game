@@ -20,7 +20,7 @@ A web-based implementation of the classic **Tower of Hanoi** puzzle using **HTML
 ### **Setup and Installation**  
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/tower-of-hanoi.git
+   git clone https://github.com/Amitverma0509/Tower-of-Hanoi-Game.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
